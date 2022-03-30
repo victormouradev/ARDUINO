@@ -1,0 +1,9 @@
+void setup()
+{
+  pinMode(13, OUTPUT); //Significa que no pino 13 você quer funcione como saída.
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH); // Significa que na porta 13 você quer mandar energia, ligar as coisas.
+}
